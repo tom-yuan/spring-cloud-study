@@ -1,3 +1,7 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
 
 server:
   port: 8888
@@ -10,8 +14,7 @@ spring:
       label: master
       server:
         git:
-          uri: https://github.com/tom-yuan/microservice-demo/
-#          uri: https://github.com/forezp/SpringcloudConfig/
-          searchPaths: respo
+          uri: https://github.com/tom-yuan/spring-cloud-study/
+          searchPaths: config-respo
 #          username: your username
 #          password: your password
