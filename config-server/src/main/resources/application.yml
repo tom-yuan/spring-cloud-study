@@ -18,3 +18,8 @@ spring:
           searchPaths: config-respo
 #          username: your username
 #          password: your password
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: admin
+    password: 140814
